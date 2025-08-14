@@ -23,7 +23,7 @@ import { CommonModule } from '@angular/common';
                 <span class="tech-tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
               </div>
               <div class="project-links">
-                <a href="#" class="project-link">
+                <a href="{{ project.github }}" target="_blank" class="project-link">
                   <span>Voir le projet</span>
                   <span class="arrow">→</span>
                 </a>
@@ -168,25 +168,36 @@ export class ProjectsComponent {
       title: 'Système de gestion RH',
       description: 'Application web complète pour la gestion des ressources humaines avec tableau de bord analytique et gestion des congés.',
       technologies: ['ASP.NET Core', 'Angular', 'SQL Server', 'Entity Framework'],
-      icon: '👥'
+      icon: '👥',
+      github: ""
     },
     {
-      title: 'Plateforme e-commerce',
-      description: 'Solution e-commerce moderne avec gestion des commandes, paiements sécurisés et interface d\'administration.',
-      technologies: ['.NET Core', 'Angular', 'Stripe API', 'Redis'],
-      icon: '🛒'
+      title: 'GameApi',
+      description: 'Un service web construit, exposant des endpoints pour gérer joueurs, scores et parties, avec du temps réel via SignalR',
+      technologies: ['.NET Core', 'Entity Framework Core', 'authentification JWT'],
+      icon: '🛒',
+      github: "https://github.com/tiffstich1/GameApi"
     },
     {
-      title: 'Application de suivi projet',
-      description: 'Outil de gestion de projets avec suivi des tâches, collaboration en temps réel et reporting automatisé.',
-      technologies: ['C#', 'Angular', 'SignalR', 'PostgreSQL'],
-      icon: '📊'
+      title: 'QuizGame',
+      description: 'un jeu interactif où les joueurs répondent à une série de questions pour tester leurs connaissances et marquer des points.',
+      technologies: ['HTML/CSS'],
+      icon: '📊',
+      github: "https://huggingface.co/spaces/Tiffano/stichquiz"
     },
     {
-      title: 'API de gestion documentaire',
-      description: 'API RESTful pour la gestion de documents avec authentification, versioning et recherche avancée.',
-      technologies: ['ASP.NET Core', 'JWT', 'ElasticSearch', 'Docker'],
-      icon: '📄'
+      title: 'Cube',
+      description: 'Un cube que l’on peut manipuler est un objet tridimensionnel interactif, physique ou virtuel, que l’on peut faire pivoter',
+      technologies: ['HTML/CSS'],
+      icon: '📄',
+      github: "https://huggingface.co/spaces/Tiffano/tiffanobelalahy"
+    },
+    {
+      title: 'Socoban',
+      description: 'un jeu de réflexion où le joueur pousse des caisses dans un entrepôt pour les placer sur des emplacements cibles en utilisant le moins de mouvements possible',
+      technologies: ['.NET WPF', 'C#'],
+      icon: '📄',
+      github: "https://github.com/tiffstich1/SocobanWPF"
     }
   ];
 }

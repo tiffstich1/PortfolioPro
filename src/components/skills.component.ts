@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
         <h2 class="section-title">\\ Compétences techniques</h2>
         <div class="skills-grid">
           <div class="skill-category">
-            <h3 class="category-title">Backend</h3>
+            <h3 class="category-title">Langages</h3>
             <div class="skills-list">
               <div class="skill-item" *ngFor="let skill of backendSkills">
                 <div class="skill-icon">{{ skill.icon }}</div>
@@ -27,7 +27,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <div class="skill-category">
-            <h3 class="category-title">Frontend</h3>
+            <h3 class="category-title">Bases de données</h3>
             <div class="skills-list">
               <div class="skill-item" *ngFor="let skill of frontendSkills">
                 <div class="skill-icon">{{ skill.icon }}</div>
@@ -43,7 +43,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <div class="skill-category">
-            <h3 class="category-title">Base de données</h3>
+            <h3 class="category-title">Outils & DevOps</h3>
             <div class="skills-list">
               <div class="skill-item" *ngFor="let skill of databaseSkills">
                 <div class="skill-icon">{{ skill.icon }}</div>
@@ -59,7 +59,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <div class="skill-category">
-            <h3 class="category-title">Outils & DevOps</h3>
+            <h3 class="category-title">Connaissances</h3>
             <div class="skills-list">
               <div class="skill-item" *ngFor="let skill of toolsSkills">
                 <div class="skill-icon">{{ skill.icon }}</div>
@@ -180,30 +180,30 @@ import { CommonModule } from '@angular/common';
 })
 export class SkillsComponent {
   backendSkills = [
-    { name: 'C# / .NET', level: 90, icon: '#' },
-    { name: 'ASP.NET Core', level: 85, icon: '⚡' },
-    { name: 'Entity Framework', level: 80, icon: '🗄️' },
-    { name: 'Web API', level: 88, icon: '🔗' }
+    { name: 'HTML/CSS', level: 90, icon: '🌐' },
+    { name: 'JS/TypeScript', level: 85, icon: '🟨' },
+    { name: 'C#', level: 80, icon: '💠' },
+    { name: 'Python/SQL', level: 88, icon: '🐍' }
   ];
 
   frontendSkills = [
-    { name: 'Angular', level: 85, icon: '🅰️' },
-    { name: 'TypeScript', level: 85, icon: '📝' },
-    { name: 'HTML/CSS', level: 90, icon: '🎨' },
-    { name: 'RxJS', level: 75, icon: '🔄' }
+    { name: 'MySQL', level: 85, icon: '🗄️' },
+    { name: 'PostgreSQL', level: 85, icon: '🐘' },
+    { name: 'SQL Server/SQLite', level: 90, icon: '🧮' },
+    { name: 'MongoDB', level: 75, icon: '🍃' }
   ];
 
   databaseSkills = [
-    { name: 'SQL Server', level: 85, icon: '🗃️' },
-    { name: 'MySQL', level: 75, icon: '🐬' },
-    { name: 'PostgreSQL', level: 70, icon: '🐘' },
-    { name: 'Redis', level: 65, icon: '⚡' }
+    { name: 'Visual Studio/VSCode', level: 85, icon: '🖥️' },
+    { name: 'Git/GitHub', level: 75, icon: '🔗' },
+    { name: 'Figma/WordPress', level: 70, icon: '🎨' },
+    { name: 'Docker/Azure', level: 65, icon: '🐳' }
   ];
 
   toolsSkills = [
-    { name: 'Git/GitHub', level: 85, icon: '🔧' },
-    { name: 'Visual Studio', level: 90, icon: '💻' },
-    { name: 'Docker', level: 70, icon: '🐳' },
-    { name: 'Azure DevOps', level: 75, icon: '☁️' }
+    { name: 'Architecture MVC', level: 85, icon: '🏛️' },
+    { name: 'APIs REST', level: 90, icon: '🔌' },
+    { name: 'Dev full stack', level: 70, icon: '🧑‍💻' },
+    { name: 'Gestion de projets agiles', level: 75, icon: '📈' }
   ];
 }

@@ -118,7 +118,7 @@ import { CommonModule } from '@angular/common';
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: transparent;
       border: none;
       color: white;
       font-size: 2rem;
@@ -129,7 +129,9 @@ import { CommonModule } from '@angular/common';
     }
 
     .nav-arrow:hover {
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: transparent;
+      font-size: 2.3rem;
+      transition: 0.5s;
     }
 
     .nav-arrow.left {
@@ -171,20 +173,44 @@ export class ProComponent {
 
   projects = [
     {
-      title: "no man's land",
-      description: "A third-person survival-mode game where you battle against time and space to return to Earth.",
-      tech: "C# (UNITY)",
-      github: "#",
-      demo: "#",
-      image: "/assets/no-mans-land.png"
+      title: "Labyrinthe Game",
+      description: "C'est un jeu où le joueur doit trouver son chemin à travers un dédale complexe pour atteindre un objectif ou une sortie.",
+      tech: "Angular",
+      github: "https://github.com/tiffstich1/MazeGame",
+      demo: "https://labyrinthe01.netlify.app/",
+      image: "/assets/labyrintGame.png"
     },
     {
-      title: "Second Game",
-      description: "Another immersive project in space exploration and enemy evasion.",
-      tech: "C# (UNITY)",
+      title: "CasquettesShop",
+      description: "Une boutique en ligne spécialisée dans la vente de casquettes de différents styles, marques et designs.",
+      tech: "Angular",
+      github: "https://github.com/tiffstich1/AppStore",
+      demo: "https://tiffappstore.netlify.app/",
+      image: "/assets/CasquetteShop.png"
+    },
+    {
+      title: "Echec",
+      description: "un jeu de stratégie opposant deux joueurs qui déplacent des pièces sur un plateau quadrillé dans le but de mettre le roi adverse en échec et mat",
+      tech: "Angular",
+      github: "https://github.com/tiffstich1/EchecJeu",
+      demo: "https://mgechec.netlify.app/",
+      image: "/assets/echec.png"
+    },
+    {
+      title: "ChatApp",
+      description: "une application permettant aux utilisateurs d’échanger des messages en temps réel via internet.",
+      tech: "Angular/Asp.Net",
+      github: "https://github.com/tiffstich1/ChatApp",
+      demo: "#",
+      image: "/assets/chatApp.png"
+    },
+    {
+      title: "Mon Portfolio",
+      description: "Support physique regroupant mes travaux, projets ou réalisations afin de mettre en valeur mes compétences et mon expérience.",
+      tech: "Asp.Net",
       github: "#",
       demo: "#",
-      image: "/assets/second-game.png"
+      image: "/assets/Portfolio.png"
     }
   ];
 

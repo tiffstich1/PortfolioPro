@@ -12,23 +12,22 @@ import { CommonModule } from '@angular/common';
         <div class="about-content">
           <div class="about-text">
             <p class="lead">
-              Ingénieur logiciel passionné avec une expertise approfondie en développement d'applications web modernes.
+              Je m’appelle Gerard Tiffano Belalahy, j’ai 24 ans et je suis titulaire d’un Master en Informatique Multimédia et TIC.
             </p>
             <p>
-              Fort de plusieurs années d'expérience dans le développement logiciel, je me spécialise dans les technologies 
-              Microsoft .NET et Angular. J'aime créer des solutions élégantes et performantes qui résolvent des problèmes 
-              complexes tout en offrant une expérience utilisateur exceptionnelle.
+              Mon parcours m’a permis de travailler sur une grande variété de projets allant du développement
+               d’applications web et mobiles à la mise en place de solutions automatisées et intelligentes.
             </p>
             <p>
-              Mon approche combine rigueur technique et créativité pour livrer des applications robustes, maintenables 
-              et évolutives. Je suis constamment à la recherche de nouvelles technologies et méthodologies pour améliorer 
-              mes compétences et apporter une valeur ajoutée aux projets sur lesquels je travaille.
+              Au-delà des lignes de code, j’attache une grande importance à l’expérience utilisateur,
+               à la qualité du produit final et à la collaboration avec l’équipe.
+            </p>
+            <p>
+             Curieux et en constante évolution, je suis toujours prêt à découvrir de nouvelles technologies,
+              à m’adapter à différents environnements et à proposer des idées créatives.
             </p>
             <div class="stats">
-              <div class="stat">
-                <div class="stat-number">3+</div>
-                <div class="stat-label">Années d'expérience</div>
-              </div>
+              
               <div class="stat">
                 <div class="stat-number">20+</div>
                 <div class="stat-label">Projets réalisés</div>
@@ -43,13 +42,13 @@ import { CommonModule } from '@angular/common';
             <div class="image-container">
               <div class="profile-image-wrapper">
                 <div class="tech-background">
-                  <div class="tech-text">À PROPOS DE MOI</div>
+                  <div class="tech-text">GLOBALEMENT</div>
                   <div class="tech-subtitle">
                     Ingénieur logiciel passionné avec une expertise approfondie en développement d'applications web modernes.
                   </div>
                   <div class="tech-icons">
-                    <div class="tech-icon dotnet">.NET</div>
-                    <div class="tech-icon angular">A</div>
+                    <div class="tech-icon dotnet">C#</div>
+                    <div class="tech-icon angular">JS</div>
                   </div>
                   <div class="circuit-pattern"></div>
                 </div>
@@ -92,7 +91,7 @@ import { CommonModule } from '@angular/common';
 
     .stats {
       display: flex;
-      gap: 1.5rem;
+      gap: 5.5rem;
       margin-top: 2rem;
     }
 

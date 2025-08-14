@@ -15,12 +15,12 @@ import { CommonModule } from "@angular/common";
               <span class="blink">|</span>
             </h1>
             <h2 class="hero-subtitle fade-in-up">
-              Ingénieur Logiciel spécialisé en .NET & Angular
+              Ingénieur Logiciel et je crée des trucs parfois
             </h2>
             <p class="hero-description fade-in-up">
               Passionné par le développement d'applications web modernes et
-              performantes. J'apporte des solutions techniques innovantes pour
-              transformer vos idées en réalité digitale.
+              performantes. Chaque projet est pour
+               moi l’occasion d’apprendre, d’innover et de relever de nouveaux défis.
             </p>
             <div class="hero-buttons fade-in-up">
               <a href="https://cvdesignr.com/p/6810a611896a9" target="_blank" class="btn btn-primary">Mon CV</a>
