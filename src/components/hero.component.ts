@@ -24,7 +24,7 @@ import { CommonModule } from "@angular/common";
             </p>
             <div class="hero-buttons fade-in-up">
               <!-- <a href="https://cvdesignr.com/p/6810a611896a9" target="_blank" class="btn btn-primary">Mon CV</a> -->
-              <a href="#" target="_blank" class="btn btn-primary">Mon CV</a>
+              <a href="#" class="btn btn-primary">Mon CV</a>
               <a href="#projects" class="btn btn-outline">Voir mes projets</a>
             </div>
           </div>
