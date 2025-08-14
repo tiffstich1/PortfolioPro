@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
         <div class="footer-content">
           <div class="footer-section">
             <h3>Tiffano Belalahy</h3>
-            <p>Ingénieur Logiciel spécialisé en .NET & Angular</p>
+            <p>Ingénieur Logiciel</p>
             <div class="social-links">
               <a href="https://linkedin.com/in/tiffano-belalahy" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn"><img src="/assets/03.png" width="20px"></a>
               <a href="https://github.com/tiffstich1" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><img src="/assets/04.png" width="20px"></a>
@@ -31,16 +31,16 @@ import { CommonModule } from '@angular/common';
           <div class="footer-section">
             <h4>Technologies</h4>
             <ul class="footer-links">
-              <li>ASP.NET Core</li>
-              <li>Angular</li>
-              <li>SQL Server</li>
+              <li>ASP.NET Core,wpf</li>
+              <li>Angular,React,NodeJs</li>
+              <li>SQL Server,SQLite</li>
               <li>Entity Framework</li>
-              <li>TypeScript</li>
+              <li>Scikit-learn,TensorFlow,Pandas</li>
             </ul>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; {{ currentYear }} Tiffano Belalahy. Tous droits réservés.</p>
+          <p>&copy; {{ currentYear }} Tiffano Belalahy.</p>
         </div>
       </div>
     </footer>
