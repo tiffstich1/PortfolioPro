@@ -182,7 +182,7 @@ export class SkillsComponent {
   backendSkills = [
     { name: 'HTML/CSS', level: 90, icon: '🌐' },
     { name: 'JS/TypeScript', level: 85, icon: '🟨' },
-    { name: 'C#', level: 80, icon: '💠' },
+    { name: 'C#/Java', level: 80, icon: '💠' },
     { name: 'Python/SQL', level: 88, icon: '🐍' }
   ];
 
